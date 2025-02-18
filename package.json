@@ -1,0 +1,9 @@
+{
+  "name": "ttlr",
+  "version": "0.0.1",
+  "type": "module",
+  "dependencies": {
+    "n3": "^1.23.1",
+    "rdfa-streaming-parser": "^3.0.1"
+  }
+}
