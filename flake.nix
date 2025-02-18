@@ -7,7 +7,7 @@
     let pkgs = nixpkgs.legacyPackages.${system}; in
     {
       devShells.default = pkgs.mkShell {
-        packages = with pkgs; [gnumake nodejs];
+        packages = with pkgs; [nodejs];
         shellHook = ''exec zsh'';
       };
       packages.default = pkgs.buildNpmPackage {
